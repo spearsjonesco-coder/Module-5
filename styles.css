@@ -222,6 +222,37 @@ nav {
 
 /*
 
+MODAL
+
+*/
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 1100px;
+    height: 700px;
+    box-shadow: 0 20px 80px 0 rgb(0, 0, 0, 0.55);
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+}
+.modal_half {
+    width: 50%;
+}
+
+.modal__about {
+    background-color: rgb(245, 245, 245);
+}
+
+.modal__contact {
+    background-color: #242424;
+    color: white;
+}
+
+/*
+
 PROJECTS
 
 */
@@ -261,6 +292,7 @@ PROJECTS
 
 .project__wrapper:hover .project__wrapper--bg {
     opacity: 0.7;
+    visibility: visible;
 }
 
 .project__description {
@@ -282,6 +314,7 @@ PROJECTS
     height: 100%;
     background-color: #1c1d25;
     opacity: 0.7;
+    visibility: hidden;
 }
 
 .project__description--title {
@@ -340,3 +373,4 @@ footer {
 .footer__copyright {
     color: white;
 }
+
