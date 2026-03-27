@@ -238,12 +238,19 @@ MODAL
     overflow: hidden;
     display: flex;
 }
-.modal_half {
+.modal__half {
     width: 50%;
 }
 
 .modal__about {
     background-color: rgb(245, 245, 245);
+    display: fles;
+    flex-direction: column;
+}
+
+.modal__languages {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .modal__contact {
