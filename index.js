@@ -1,8 +1,9 @@
-// 
-// 
-// 
-const loading = document.querySelector('.modal__overlay--loading');
-const success = document.querySelector('.modal__overlay--success');
+// template_jmjmjt8
+// service_7usrhpq
+// 02HiRZLm8_5pZurip
+
+const loading = document.querySelector(".modal__overlay--loading");
+const success = document.querySelector(".modal__overlay--success");
 
 console.log(loading, scussess);
 
