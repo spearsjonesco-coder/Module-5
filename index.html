@@ -7,6 +7,14 @@
     <title>Crystal Jones</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/54b942c0f6.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+   (function() {
+      emailjs.init("Y02HiRZLm8_5pZurip");
+      })();
+</script>
 </head>
 
 <body>
@@ -97,7 +105,7 @@
         <h3 class="modal__sub-title modal__sub-title--contact">
             I am open to new opportunities.
         </h3>
-        <form id="contact__form" action="">
+        <form id="contact__form" onsubmit="contact()">
         <div class="form__item">
             <label class="form__item--label">Name</label>
             <input class="input" name="user_name" type="text" required></input>
