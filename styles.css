@@ -605,3 +605,31 @@ footer {
     color: white;
 }
 
+/*
+
+SHAPES
+
+*/
+
+shapes on the first row
+height = 35vh
+
+shapes on the second row
+height = 70vh
+
+shapes on the third row
+height = 95vh
+
+shapes on the first column
+width = 5vw
+
+shapes on the second column
+width = 50vw
+
+shapes on the third column
+width = 80vw
+*/
+.shape--0 {
+    height: 35vh;
+    width: 5vw
+}
